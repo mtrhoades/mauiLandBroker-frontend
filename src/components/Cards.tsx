@@ -5,6 +5,7 @@ import { faCalculator } from '@fortawesome/free-solid-svg-icons';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import { faHouseUser } from '@fortawesome/free-solid-svg-icons';
 import { faHouseChimneyWindow } from '@fortawesome/free-solid-svg-icons';
+import { faUmbrellaBeach } from '@fortawesome/free-solid-svg-icons';
 
 const Cards = () => {
 
@@ -38,6 +39,13 @@ return (
             <div className="cardIcon">
                 <FontAwesomeIcon className='icons' icon={faHouse}></FontAwesomeIcon>
                 <h5>HOA Information</h5>
+            </div>
+        </a>
+
+        <a href="/specials">
+            <div className="cardIcon">
+                <FontAwesomeIcon className='icons' icon={faUmbrellaBeach}></FontAwesomeIcon>
+                <h5>Kama'āina Specials</h5>
             </div>
         </a>
 

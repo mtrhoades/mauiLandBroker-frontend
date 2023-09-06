@@ -30,15 +30,15 @@ const NewFooter = () => {
                     <ListGroup.Item>We here at MLB strive to keep the culture of Maui alive and well. Our roots run deep here and we want nothing more than to preserve the communities of Maui that have been here since the beginning.</ListGroup.Item>
                 </ListGroup>
             </Col>
-            <Col lg='auto' md='auto' sm='auto' className='mb-3'>
+            {/* <Col lg='auto' md='auto' sm='auto' className='mb-3'>
                 <ListGroup>
                     <ListGroup.Item className='footer-link-heading'><h5>Other Links</h5></ListGroup.Item>
                     <ListGroup.Item> <a href='/specials'>Kama'āina Specials</a></ListGroup.Item>
                     <ListGroup.Item> <a href='#'>Something Else</a></ListGroup.Item>
                     <ListGroup.Item> <a href='#'>Something Else</a></ListGroup.Item>
                 </ListGroup>
-            </Col>
-            <Col lg='auto' md='auto' sm='auto' className='mb-3 iconsCol'>
+            </Col> */}
+            <Col lg='auto' md='auto' sm='auto' className='mb-3 iconsCol px-5'>
                 <div>
                     <a href='https://www.facebook.com/MauiLandBroker/' target="_blank">
                         <div className='social-icon facebookIcon'>
@@ -46,7 +46,7 @@ const NewFooter = () => {
                         </div>
                     </a>
                     <a href='https://www.instagram.com/maui.landbroker/' target="_blank"> 
-                        <div className='social-icon' style={{paddingRight: '20px'}}>
+                        <div className='social-icon instagramIcon'>
                             <FiInstagram/>
                         </div>
                     </a>
@@ -94,7 +94,7 @@ const NewFooter = () => {
                     </div>
                 </div>
             </Col>
-            <Col lg='auto' md='auto' sm='auto' className='mb-3'>
+            <Col lg='auto' md='auto' sm='auto' className='mb-3 px-5'>
                 <div className="location">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3727.5656252104063!2d-156.50498312480417!3d20.889551380725173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7954d36a70467cfb%3A0xf60fb39b11c5c07a!2sMaui%20Land%20Broker%20And%20Property%20Management%20Inc!5e0!3m2!1sen!2sus!4v1689807358563!5m2!1sen!2sus" width="420" height="200" loading="lazy"></iframe>
                     <h4><MdOutlineLocationOn /> 104 N. Market St. Wailuku, HI 96793</h4>

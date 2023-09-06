@@ -96,11 +96,7 @@
   }
 }
 
-.facebookIcon {
+.facebookIcon, .instagramIcon {
   padding-right: 60px;
   padding-bottom: 6px;
-
-  @media (max-width: 1177px) {
-    padding-right: 20px;
-  }
 }

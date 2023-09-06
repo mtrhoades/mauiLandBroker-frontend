@@ -3,6 +3,10 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	/* position: absolute;
+	margin-top: 71rem;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.6); */
 
 	@media (max-width: 820px) {
 		flex-wrap: wrap;
