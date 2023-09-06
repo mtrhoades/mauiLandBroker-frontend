@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Form, Col, Row } from 'react-bootstrap';
 import Chart from 'react-apexcharts';
 
@@ -32,11 +32,6 @@ const MortgageCalculator = () => {
 // graph
 const options = {
   labels: ['Monthly Mortgage Payment', 'Property Tax', 'Home Insurance', 'HOA Dues']
-  // plotOptions: {
-  //   pie: {
-  //     customScale: .8
-  //   }
-  // }
 }
 const series = [calculateMortgagePayment().mortgagePaymentBalance, (propertyTax/12), (homeInsurance/12), (hoaDues/12)]
 
@@ -99,7 +94,8 @@ const series = [calculateMortgagePayment().mortgagePaymentBalance, (propertyTax/
       </div>
 
       <div className="disclaimer">
-        Disclaimer: This mortgage calculator is intended for educational and informational purposes only. It is not intended to provide financial or investment advice. The results provided by this calculator are estimates based on the information you have provided and do not reflect the actual performance of any particular investment. The actual results may vary based on various factors, including changes in mortgage performance, taxes, and fees. The information provided by this calculator is not a substitute for professional financial advice. We recommend that you consult with a loan officer or investment professional before making any decisions.
+        <h5>Disclaimer:</h5>
+        <p>This mortgage calculator is intended for educational and informational purposes only. It is not intended to provide financial or investment advice. The results provided by this calculator are estimates based on the information you have provided and do not reflect the actual performance of any particular investment. The actual results may vary based on various factors, including changes in mortgage performance, taxes, and fees. The information provided by this calculator is not a substitute for professional financial advice. We recommend that you consult with a loan officer or investment professional before making any decisions.</p>
       </div>
 
     </div>

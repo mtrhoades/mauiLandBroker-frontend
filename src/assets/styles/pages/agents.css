@@ -27,10 +27,14 @@
 }
 
 
+.card h3 {
+    padding-top: 12px;
+}
+
 .card-back {
     border: none;
 }
 
 #arielImg {
-    width: 21.4rem;
+    width: 22rem;
 }

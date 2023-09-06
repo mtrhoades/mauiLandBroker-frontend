@@ -32,13 +32,13 @@
 } */
 
 .cardIcon h5 {
-	color: #3B2313;
+	color: black;
 	padding-top: 10px;
 }
 
 .icons {
 	font-size: 4.5rem;
-	color: #3B2313;
+	color: black;
 }
 
 .icons:hover {
