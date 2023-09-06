@@ -5,6 +5,8 @@ Maui Land Broker and Property Managment
 
 Real Estate and Property Managment website.
 
+
+<!-- Need to update image credit!  -->
 Images to attribute or purchase:
     url: https://www.vecteezy.com/png/23354066-summer-coconut-palm-tree-leaf-corner-decoration
     Attribution: <a href="https://www.vecteezy.com/free-png/hawaii">Hawaii PNGs by Vecteezy</a>
@@ -17,3 +19,5 @@ Icons to provide links or purchase:
 
 
         fontawesome icons
+
+testing for pushing to github ------------

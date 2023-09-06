@@ -20,7 +20,6 @@ function App() {
 
   return (
     <>
-    {/* tesing for github push into new repo for deployment */}
       <NavigationBar />
           <Routes>
             <Route path='/' element={<Home />} />
