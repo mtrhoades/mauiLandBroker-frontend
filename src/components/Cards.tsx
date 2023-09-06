@@ -1,9 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faC, faSignHanging } from '@fortawesome/free-solid-svg-icons';
+import { faSignHanging } from '@fortawesome/free-solid-svg-icons';
 import { faKey } from '@fortawesome/free-solid-svg-icons';
 import { faCalculator } from '@fortawesome/free-solid-svg-icons';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
-import { faHouseUser } from '@fortawesome/free-solid-svg-icons';
 import { faHouseChimneyWindow } from '@fortawesome/free-solid-svg-icons';
 import { faUmbrellaBeach } from '@fortawesome/free-solid-svg-icons';
 
@@ -49,7 +48,7 @@ return (
             </div>
         </a>
 
-        <a href="https://www.panabodehomes.com/" target="_blank">
+        <a href="https://www.panabodehomes.com/" rel="noreferrer" target="_blank">
             <div className="cardIcon">
                 <FontAwesomeIcon className='icons' icon={faHouseChimneyWindow}></FontAwesomeIcon>
                 <h5>Custom Cedar Homes</h5>

@@ -8,7 +8,7 @@ const About = () => {
       <h3>Maui Land Broker & Property Management</h3>
 
       <div className="about1stSection">
-        <img src={familyImg}></img>
+        <img src={familyImg} alt="family photo1"></img>
         <div>
           <h4>"Maui is our home"</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quasi ex repudiandae, iure, nemo quos distinctio neque accusamus mollitia id explicabo recusandae cupiditate a odio ab earum quidem, quia perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, quas quidem itaque sed harum repellat error, fugit exercitationem eius, non tenetur ipsam recusandae vel atque nihil mollitia neque et totam?</p>
@@ -20,7 +20,7 @@ const About = () => {
           <h4>Why Choose Maui Land Broker?</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quasi ex repudiandae, iure, nemo quos distinctio neque accusamus mollitia id explicabo recusandae cupiditate a odio ab earum quidem, quia perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, quas quidem itaque sed harum repellat error, fugit exercitationem eius, non tenetur ipsam recusandae vel atque nihil mollitia neque et totam?</p>
         </div>
-        <img src={familyImg2}></img>
+        <img src={familyImg2} alt="family photo2"></img>
       </div>
     </div>
   )

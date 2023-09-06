@@ -10,9 +10,9 @@ const MortgageCalculator = () => {
   const [loanTime, setLoanTime] = useState(30);
   const [interestRate, setInterestRate] = useState(7);
 
-  const [propertyTax, setPropertyTax] = useState((houseCost/1000)*5.85);
-  const [homeInsurance, setHomeInsurance] = useState((houseCost*0.0025));
-  const [hoaDues, setHoaDues] = useState(2400);
+  const [propertyTax] = useState((houseCost/1000)*5.85);
+  const [homeInsurance] = useState((houseCost*0.0025));
+  const [hoaDues] = useState(2400);
 
   const calculateMortgagePayment = () => {
     let mortgagePaymentBalance = 0;
