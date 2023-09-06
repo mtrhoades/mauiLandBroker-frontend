@@ -1,0 +1,105 @@
+.footer {
+  background-color: #3B2313;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: #FAFAFA;
+}
+
+.footer .list-group-item {
+  background-color: transparent;
+  border: none;
+  color: #FAFAFA;
+}
+
+.footer .list-group-item a {
+  color: #D6D6D6;
+}
+
+.footer .list-group-item a:hover {
+  color: #B2C035;
+}
+
+.email {
+  font-size: 3.5rem;
+  display: flex;
+  align-items: baseline;
+  cursor: pointer;
+}
+
+.email:hover {
+  color: #B2C035;
+}
+
+.social-icon {
+  font-size: 3.5rem;
+  color: #FAFAFA;
+}
+
+.social-icon:hover {
+  color: #B2C035;
+}
+
+.socialIconsDiv {
+  display: flex;
+}
+
+.phoneSection {
+  font-size: 3.5rem;
+  display: flex;
+  align-items: baseline;
+  cursor: pointer;
+}
+
+.phoneSection:hover {
+  color: #B2C035;
+}
+
+.phoneIcon {
+  padding: 0;
+}
+
+.iconsCol {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.contactForm input {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.contactForm textarea {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.logo h4 {
+  color: #7E7D32;
+}
+
+.footer-link-heading h5 {
+  color: #7E7D32;
+}
+
+.footer-link-heading a {
+  color: #FAFAFA;
+}
+
+.location iframe {
+  @media (max-width: 440px) {
+    width: 275px;
+  }
+}
+
+.facebookIcon {
+  padding-right: 60px;
+  padding-bottom: 6px;
+
+  @media (max-width: 1177px) {
+    padding-right: 20px;
+  }
+}

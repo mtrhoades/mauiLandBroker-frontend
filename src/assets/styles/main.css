@@ -1,0 +1,38 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* background-image: url('../images/taroLeafPattern.jpg');
+    background-position: center; */
+  }
+
+a {
+  text-decoration: none;
+}
+  
+
+/* Base */
+@import "base/global.css";
+@import "base/typography.css";
+
+/* Components */
+@import "components/hero.css";
+@import "components/cards.css";
+
+/* Layouts */
+@import "layouts/navigationBar.css";
+@import "layouts/footer.css";
+
+/* Pages */
+@import "pages/home.css";
+@import "pages/agents.css";
+@import "pages/about.css";
+@import "pages/buysell.css";
+@import "pages/specials.css";
+@import "pages/rentwithus.css";
+@import "pages/mortgagecalculator.css";
+@import "pages/hoainfo.css";
+@import "pages/searchresults.css";
+
+

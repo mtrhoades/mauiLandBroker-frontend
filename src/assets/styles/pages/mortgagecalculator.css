@@ -1,0 +1,81 @@
+.mortgageCalculatorContainer {
+    margin: 12rem 1rem 2.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.calcHeaders {
+    padding-bottom: 2.5rem;
+    text-align: center;
+}
+
+.calcHeaders h2 {
+    color: #3B2313;
+}
+
+.calcHeaders h5 {
+    color: #7E7D32;
+}
+
+.calcLabels {
+    font-weight: bold;
+}
+
+
+.formPlusChartDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 10px;
+
+    @media (max-width: 1238px) {
+        flex-direction: column;
+    }
+}
+
+.resultsDiv {
+    padding-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.resultsDiv h3 h4 {
+    color: #3B2313;
+}
+
+.mortgageResult {
+    font-size: 5em;
+    color: cornflowerblue;
+
+    @media (max-width: 820px) {
+        font-size: 4em;
+    }    
+}
+
+.totalResult {
+    font-size: 2rem;
+    color: green;
+}
+
+.lowerFormMC {
+    display: flex;
+    gap: 30px;
+}
+
+.mortgageChart {
+    @media (max-width: 767px) {
+        width: 500px;
+    }
+}
+
+.disclaimer {
+    margin-top: 40px;
+}
+
+.formInputs {
+    text-align: left;
+}

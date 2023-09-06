@@ -1,0 +1,16 @@
+.navbar {
+    padding: 20px 0;
+}
+
+.bg-body-tertiary {
+    background-color: #FFFF !important;
+  }
+
+.navbar-collapse {
+    display: inline-block;
+    text-align: center;
+}
+
+.navDropdownItem:hover {
+    background-color: rgb(59,35,19, .25);
+}

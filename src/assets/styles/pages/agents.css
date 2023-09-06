@@ -1,0 +1,36 @@
+.agentsWrapper {
+    margin: 50px;
+    height: 800px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    @media (max-width: 2100px) {
+        height: 100%;
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+}
+
+.card {
+    width: 330px;
+    height: 400px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0px auto;
+     /* ^^^^^^^^^ horizontally centers elements in container */
+    
+    @media (max-width: 2100px) {
+        margin: 9.5rem 1rem;
+    }
+}
+
+
+.card-back {
+    border: none;
+}
+
+#arielImg {
+    width: 21.4rem;
+}

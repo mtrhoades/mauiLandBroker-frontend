@@ -1,0 +1,18 @@
+.hoaInfoContainer {
+    margin: 12rem 1rem 12rem 1rem;
+    text-align: center;
+
+    @media (max-width: 431px) {
+        margin-top: 15rem;
+    }
+}
+
+.hoaInfoContainer h3 {
+    color: #3B2313;
+}
+
+.hoaInfoContainer h5 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #7E7D32;
+}

@@ -1,0 +1,26 @@
+.specialsContainer {
+    margin: 15rem 12rem 12rem 12rem;
+    text-align: center;
+}
+
+.specialsContainer h3 {
+    color: #7E7D32;
+}
+
+.specialsInfoDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+
+.specialsInfoDiv li {
+    padding-bottom: 20px;
+}
+
+.specialsInfoDiv img {
+    width: 20%;
+    padding-right: 20px;
+}

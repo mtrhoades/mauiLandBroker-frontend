@@ -1,0 +1,64 @@
+.buySellContainer {
+    margin: 12rem 0rem 7rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    @media (max-width: 431px) {
+        margin-top: 15rem;
+    }
+}
+
+.buySellContainer h3 {
+    color: #7E7D32;
+    padding-top: 40px;
+    text-align: center;
+
+    @media (max-width: 771px) {
+        font-size: 1.3em;
+    }
+    @media (max-width: 644px) {
+        font-size: 1.2em;
+    }
+}
+
+.buySellContainer h2 {
+    padding-top: 20px;
+    color: #3B2313;
+    text-align: center;
+
+    @media (max-width: 771px) {
+        font-size: 1.6em;
+    }
+    @media (max-width: 644px) {
+        font-size: 1.4em;
+    }
+}
+
+.buySellList {
+    display: flex;
+    font-size: 1.5em;
+    list-style-type: none;
+
+    @media (max-width: 903px) {
+        font-size: 1.25em;
+    }
+    @media (max-width: 771px) {
+        font-size: 1em;
+    }
+}
+
+.buySellList li {
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+.buySellIcon {
+    padding-right: 20px;
+    font-size: 3rem;
+
+    @media (max-width: 771px) {
+        font-size: 2em;
+    }
+}
