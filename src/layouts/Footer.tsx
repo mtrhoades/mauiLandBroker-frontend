@@ -51,7 +51,7 @@ const NewFooter = () => {
                         <h4>(808)442-3036</h4>
                     </div>
                     <div className="email">
-                        <button style={{backgroundColor: '#3B2313'}} onClick={handleShow}>
+                        <button onClick={handleShow}>
                             <div style={{paddingRight: '10px'}} className="social-icon">
                                 <MdOutlineEmail />
                             </div>

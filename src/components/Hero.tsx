@@ -2,11 +2,14 @@ import Carousel from 'react-bootstrap/Carousel';
 import Form from 'react-bootstrap/Form';
 import Cards from '../components/Cards';
 import Button from 'react-bootstrap/Button';
-import maluhiaPic from '../assets/images/maluhiaPic.jpeg';
-import maluhiaPic2 from '../assets/images/maluhiaPic2.jpeg';
-import maluhiaPic3 from '../assets/images/maluhiaPic3.jpeg';
-import maluhiaPic4 from '../assets/images/maluhiaPic4.jpeg';
-import maluhiaPic5 from '../assets/images/maluhiaPic5.jpeg';
+import backOfHouse from '../assets/images/backHouse.jpg';
+import frontOfHouse from '../assets/images/frontHouse.jpg';
+import poolHouse from '../assets/images/poolHouse.jpg';
+import fromAfarHouse from '../assets/images/farHouse.jpg';
+import insideTableHouse from '../assets/images/insidetableHouse.jpg';
+import insideHOuse from '../assets/images/insideHouse.jpg';
+import pool2House from '../assets/images/pool2House.jpg';
+
 
 const Hero = () => {
 
@@ -18,45 +21,60 @@ const Hero = () => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={maluhiaPic}
+              src={backOfHouse}
               alt="First slide"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={maluhiaPic2}
+              src={poolHouse}
               alt="Second slide"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={maluhiaPic3}
+              src={fromAfarHouse}
               alt="Third slide"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={maluhiaPic4}
+              src={insideHOuse}
               alt="Fourth slide"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={maluhiaPic5}
+              src={pool2House}
               alt="Fifth slide"
             />
           </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={frontOfHouse}
+              alt="Sixth slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={insideTableHouse}
+              alt="Seventh slide"
+            />
+          </Carousel.Item>
+
         </Carousel>
       </div>
 
       <div className="heroHeaders">
         <h1>A Full-Service Real Estate Sales & Management Company</h1>
-        <h2 style={{paddingBottom: '20px'}}>Woman and Native Owned Small Business</h2>
-        <h2>Find Your Ohana's Paradise Today!</h2>
+        {/* <h2 style={{paddingBottom: '20px'}}>Woman and Native Owned Small Business</h2>
+        <h2>Find Your Ohana's Paradise Today!</h2> */}
       </div>      
 
       <div className='hero-bottom-section'>

@@ -68,3 +68,22 @@
     }
 }
 
+.underTheSeaCollage {
+    position: relative;
+}
+
+.underSeaCollageImgs {  
+    max-width: 450px;
+}
+
+#underSeaImg1 {
+    margin-right: -100px;
+}
+
+#underSeaImg2 {
+    margin-top: 40px;
+}
+
+#underSeaImg3 {
+    margin-left: -100px;
+}
