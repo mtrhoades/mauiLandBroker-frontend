@@ -1,5 +1,5 @@
 .aboutContainer {
-    margin: 12rem 1rem 5rem 1rem;
+    margin: 12rem 0rem 5rem 0rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -33,29 +33,30 @@
 }
 
 .about1stSection {
-    width: 70%;
+    width: 80%;
     text-align: left;
     display: flex;
-    align-items: center;
 
     @media (max-width: 1500px) {
         width: 100%;
     }
     @media (max-width: 700px) {
         flex-direction: column;
-        text-align: center;
     }
 }
 
 .about1stSectionText {
     margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .about2ndSection {
-    width: 70%;
+    width: 80%;
     text-align: right;
     display: flex;
-    align-items: center;
+    padding-top: 3rem;
 
     @media (max-width: 1500px) {
         width: 100%;
@@ -64,6 +65,13 @@
         flex-direction: column;
         text-align: center;
     }
+}
+
+.about2ndSectionText {
+    margin-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .gallery {
@@ -71,17 +79,16 @@
     --m: 4; /* number of columns */
     --h: 10rem; /* control the height */
     --w: 55rem; /* control the width */
-    --g: 10px;  /* control the gap */
-    --f: .6;   /* control the scale factor */
-    
+    --g: .5rem;  /* control the gap */
+
     display: grid;
     gap: var(--g);
     width:  calc(var(--m)*var(--w) + (var(--m) - 1)*var(--g));
     height: calc(var(--n)*var(--h) + (var(--n) - 1)*var(--g));
     grid-template-columns: repeat(var(--m),auto);
-  }
-  
-  .gallery > img {
+}
+
+.gallery img {
     width: 0;
     height: 0;
     min-height: 100%;
@@ -89,9 +96,38 @@
     object-fit: cover;
     cursor: pointer;
     transition: .5s linear;
-  }
+}
   
-  .gallery img:hover{
+.gallery img:hover{
     width:  calc(var(--w)*.6);
+    height: calc(var(--h)*3);
+}
+
+.gallery2 {
+    --n: 2; /* number of rows*/
+    --m: 2; /* number of columns */
+    --h: 25rem; /* control the height */
+    --w: 210rem; /* control the width */
+    --g: 1rem;  /* control the gap */
+
+    display: grid;
+    gap: var(--g);
+    width:  calc(var(--m)*var(--w) + (var(--m) - 1)*var(--g));
+    height: calc(var(--n)*var(--h) + (var(--n) - 1)*var(--g));
+    grid-template-columns: repeat(var(--m),auto);
+}
+
+.gallery2 img {
+    width: 0;
+    height: 0;
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: .5s linear;
+}
+
+.gallery2 img:hover{
+    width:  calc(var(--w)*.3);
     height: calc(var(--h)*2);
-  }
+}

@@ -2,13 +2,13 @@ import Carousel from 'react-bootstrap/Carousel';
 import Form from 'react-bootstrap/Form';
 import Cards from '../components/Cards';
 import Button from 'react-bootstrap/Button';
-import backOfHouse from '../assets/images/backHouse.jpg';
-import frontOfHouse from '../assets/images/frontHouse.jpg';
-import poolHouse from '../assets/images/poolHouse.jpg';
-import fromAfarHouse from '../assets/images/farHouse.jpg';
-import insideTableHouse from '../assets/images/insidetableHouse.jpg';
-import insideHOuse from '../assets/images/insideHouse.jpg';
-import pool2House from '../assets/images/pool2House.jpg';
+import backOfHouse from '../assets/images/house/backHouse.jpg';
+import frontOfHouse from '../assets/images/house/frontHouse.jpg';
+import poolHouse from '../assets/images/house/poolHouse.jpg';
+import fromAfarHouse from '../assets/images/house/farHouse.jpg';
+import insideTableHouse from '../assets/images/house/insidetableHouse.jpg';
+import insideHOuse from '../assets/images/house/insideHouse.jpg';
+import pool2House from '../assets/images/house/pool2House.jpg';
 
 
 const Hero = () => {

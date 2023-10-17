@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import ReactCardFlip from 'react-card-flip';
-import josephPhoto from '../assets/images/Joseph.jpg';
-import sashaPhoto from '../assets/images/Sasha.jpg';
-import hawanaPhoto from '../assets/images/Hawana.jpg';
-import arielPhoto from '../assets/images/Ariel.jpg';
-import shirleyPhoto from '../assets/images/Shirley.jpg';
+import josephPhoto from '../assets/images/agents/Joseph.jpg';
+import sashaPhoto from '../assets/images/agents/Sasha.jpg';
+import hawanaPhoto from '../assets/images/agents/Hawana.jpg';
+import arielPhoto from '../assets/images/agents/Ariel.jpg';
+import shirleyPhoto from '../assets/images/agents/Shirley.jpg';
 
 const About = () => {
 
@@ -37,7 +37,7 @@ const flipCard5 = () => {
 
       <ReactCardFlip flipDirection='horizontal' isFlipped={isFlipped1}>
         <div className="card card-front" onClick={flipCard1}>
-          <img src={josephPhoto}></img>
+          <img src={josephPhoto} alt="Joe Blackburn"></img>
           <h3>Joseph Blackburn</h3>
           <h5>Co-Owner</h5>
           <h5>Broker/Agent</h5>
@@ -50,7 +50,7 @@ const flipCard5 = () => {
 
       <ReactCardFlip flipDirection='horizontal' isFlipped={isFlipped2}>
         <div className="card card-front" onClick={flipCard2}>
-          <img src={shirleyPhoto}></img>
+          <img src={shirleyPhoto} alt="Shirley Blackburn"></img>
           <h3>Shirley Blackburn</h3>
           <h5>Co-Owner</h5>
         </div>
@@ -61,7 +61,7 @@ const flipCard5 = () => {
 
       <ReactCardFlip flipDirection='horizontal' isFlipped={isFlipped3}>
         <div className="card card-front" onClick={flipCard3}>
-          <img id="arielImg" src={arielPhoto}></img>
+          <img id="arielImg" src={arielPhoto} alt="Ariel Blackburn"></img>
           <h3>Ariel Blackburn-Rhoades</h3>
           <h5>Agent</h5>
         </div>
@@ -72,7 +72,7 @@ const flipCard5 = () => {
 
       <ReactCardFlip flipDirection='horizontal' isFlipped={isFlipped5}>
         <div className="card card-front" onClick={flipCard5}>
-          <img src={sashaPhoto}></img>
+          <img src={sashaPhoto} alt="Sasha Haukoloa"></img>
           <h3>Sasha Haukoloa</h3>
           <h5>Agent</h5>
         </div>
@@ -83,7 +83,7 @@ const flipCard5 = () => {
 
       <ReactCardFlip flipDirection='horizontal' isFlipped={isFlipped4}>
         <div className="card card-front" onClick={flipCard4}>
-          <img src={hawanaPhoto}></img>
+          <img src={hawanaPhoto} alt="Hawana Blackburn"></img>
           <h3>Hawana Blackburn</h3>
           <h5>Agent</h5>
         </div>
