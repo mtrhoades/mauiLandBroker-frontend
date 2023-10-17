@@ -49,11 +49,11 @@ const About = () => {
         </div>
         <div className="about1stSectionText">
           <div>
-            <h4>"Native Hawaiian and Woman Owned"</h4>
+            <h4>Native Hawaiian and Woman Owned</h4>
             <p>We are proud to be native Hawaiian as well as a woman owned small business. We care very deeply for our fellow natives and other community members that have been here a long time. Maui is a very special place and will always have our hearts fully committed to honoring the traditions and the culture of the island.</p>
           </div>
           <div>
-            <h4>"Maui is our home"</h4>
+            <h4>Maui is our home</h4>
             <p>Our family has multiple generations that have called the island of Maui our home. We will continue to do so with the next generation and we want to help other families feel the same way too. Not only is this our home but also our way of life. From the ocean to the top of Haleakala, we respect every apsect of the island. The community here on Maui is also an extremely important factor and we strive to keep it thriving with people who respect the land as much as we do.</p>
           </div>
           <div>
