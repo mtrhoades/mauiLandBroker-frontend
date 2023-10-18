@@ -3,10 +3,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* position: absolute;
-	margin-top: 71rem;
-	width: 100%;
-	background-color: rgba(255, 255, 255, 0.6); */
 
 	@media (max-width: 820px) {
 		flex-wrap: wrap;
@@ -31,18 +27,16 @@
 	}
 }
 
-/* .cardIcon:hover {
-	opacity: 50%;
-} */
-
 .cardIcon h5 {
 	color: black;
 	padding-top: 10px;
 }
 
-.icons {
+.icons, g g path {
 	font-size: 4.5rem;
-	color: black;
+	color: #7E7D32;
+	stroke: black;
+	stroke-width: 15;
 }
 
 .icons:hover {
