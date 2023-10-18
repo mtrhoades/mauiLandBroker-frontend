@@ -58,14 +58,14 @@ const NewFooter = () => {
                         </button>
                         <h4>Message Us!</h4>
                         <div>
-                            <Modal show={show} onHide={handleClose}>
+                            <Modal centered show={show} onHide={handleClose}>
                             <Modal.Header closeButton>
                                 <Modal.Title>sales@mauilandbroker.com</Modal.Title>
                             </Modal.Header>
                             <Modal.Body>
                                 <form className="contactForm">
                                 <label htmlFor="name">Name:</label>
-                                <input type="text" id="name" name="name"></input>
+                                <input autoFocus type="text" id="name" name="name"></input>
 
                                 <label htmlFor="subject">Subject:</label>
                                 <input type="text" id="subject" name="subject"></input>
