@@ -32,16 +32,16 @@
 	padding-top: 10px;
 }
 
-.icons, g g path {
+.icons {
 	font-size: 4.5rem;
 	color: #7E7D32;
 	stroke: black;
-	stroke-width: 15;
+	stroke-width: 7.5;
 }
 
 .icons:hover {
 	animation: bounce 1.3s ease-out;
-	/* opacity: 50%; */
+	opacity: 50%;
 	color: #B2C035;
 }
 

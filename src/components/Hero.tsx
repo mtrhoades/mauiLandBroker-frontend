@@ -73,8 +73,6 @@ const Hero = () => {
 
       <div className="heroHeaders">
         <h1>A Full-Service Real Estate Sales & Management Company</h1>
-        {/* <h2 style={{paddingBottom: '20px'}}>Woman and Native Owned Small Business</h2>
-        <h2>Find Your Ohana's Paradise Today!</h2> */}
       </div>      
 
       <div className='hero-bottom-section'>

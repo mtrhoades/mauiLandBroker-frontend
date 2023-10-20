@@ -1,8 +1,9 @@
 .buySellContainer {
-    margin: 12rem 0rem 7rem 0rem;
+    background-image: url('../../images/house/farHouse.jpg');
+    background-size: cover;
+    margin: 12rem 0rem 0rem 0rem;
+    padding: 2rem 0rem 0rem 0rem;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
 
     @media (max-width: 431px) {
@@ -13,7 +14,6 @@
 .buySellContainer h3 {
     color: #7E7D32;
     padding-top: 40px;
-    text-align: center;
 
     @media (max-width: 771px) {
         font-size: 1.3em;
@@ -24,9 +24,9 @@
 }
 
 .buySellContainer h2 {
+    text-align: center;
     padding-top: 20px;
     color: black;
-    text-align: center;
 
     @media (max-width: 771px) {
         font-size: 1.6em;
@@ -36,10 +36,35 @@
     }
 }
 
-.buySellList {
+.reasonsToListBackground {
+    min-height: 70vh;
+    width: 55vw;
+    position: relative;
     display: flex;
+    align-items: center;
+}
+
+.reasonsToListBackground::before {
+    content: '';
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: .5;
+}
+
+.reasonsToList {
+    padding-left: 7rem;
+    padding-bottom: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     font-size: 1.5em;
     list-style-type: none;
+    position: relative;
 
     @media (max-width: 903px) {
         font-size: 1.25em;
@@ -49,16 +74,34 @@
     }
 }
 
-.buySellList li {
+.reasonsToList h3 {
+    text-align: center;
+    padding-right: 3rem;
+}
+
+.reasonsToList li {
     list-style-type: none;
-    padding-top: 20px;
+    padding: 12px;
 }
 
 .buySellIcon {
     padding-right: 20px;
     font-size: 3rem;
+    color: #B2C035;
 
     @media (max-width: 771px) {
         font-size: 2em;
     }
+}
+
+.asBuyerSellerList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.asBuyerSellerList ul {
+    font-size: 1.5em;
+    list-style-type: none;
 }
