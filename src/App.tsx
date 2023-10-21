@@ -1,6 +1,7 @@
 import ReactGA from 'react-ga';
 import { Routes, Route } from 'react-router-dom';
 import NavigationBar from './layouts/NavigationBar';
+import Cards from './components/Cards';
 import Footer from './layouts/Footer';
 import Home from './pages/Home';
 import Listings from './pages/Listings';
@@ -20,20 +21,24 @@ function App() {
 
   return (
     <>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='about' element={<About />} />
+        <Route path='agents' element={<Agents />} />
+        <Route path='associations' element={<Associations />} />
+        <Route path='listings' element={<Listings />} />
+        <Route path='specials' element={<Specials />} />
+        <Route path='buysell' element={<BuySell />} />
+        <Route path='rentwithus' element={<RentWithUs />} />
+        <Route path='mortgagecalculator' element={<MortgageCalculator />} />
+        <Route path='hoainfo' element={<HoaInfo />} />
+        <Route path='searchresults' element={<SearchResults />} />
+      </Routes>
+
       <NavigationBar />
-          <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='about' element={<About />} />
-            <Route path='agents' element={<Agents />} />
-            <Route path='associations' element={<Associations />} />
-            <Route path='listings' element={<Listings />} />
-            <Route path='specials' element={<Specials />} />
-            <Route path='buysell' element={<BuySell />} />
-            <Route path='rentwithus' element={<RentWithUs />} />
-            <Route path='mortgagecalculator' element={<MortgageCalculator />} />
-            <Route path='hoainfo' element={<HoaInfo />} />
-            <Route path='searchresults' element={<SearchResults />} />
-          </Routes>
+
+      <Cards />
+
       <Footer />
 
     </>

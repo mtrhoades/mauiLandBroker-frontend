@@ -43,12 +43,14 @@ const NewFooter = () => {
                 </div>
                 <div>
                     <div style={{paddingBottom: '10px'}} className="phoneSection">
-                        <a href='/#'>
+                        <a href="tel:8084423036">
                             <div className='social-icon phoneIcon'>
                                 <MdOutlinePhoneIphone/>
                             </div>
                         </a>
-                        <h4>(808)442-3036</h4>
+                        <a href="tel:8084423036">
+                            <h4>(808)442-3036</h4>
+                        </a>
                     </div>
                     <div className="email">
                         <button onClick={handleShow}>
@@ -56,7 +58,7 @@ const NewFooter = () => {
                                 <MdOutlineEmail />
                             </div>
                         </button>
-                        <h4>Message Us!</h4>
+                        <h4 onClick={handleShow}>Message Us!</h4>
                         <div>
                             <Modal centered show={show} onHide={handleClose}>
                             <Modal.Header closeButton>

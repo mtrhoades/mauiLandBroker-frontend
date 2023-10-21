@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 import backOfHouse from '../assets/images/house/backHouse.jpg';
 import frontOfHouse from '../assets/images/house/frontHouse.jpg';
 import poolHouse from '../assets/images/house/poolHouse.jpg';
-import fromAfarHouse from '../assets/images/house/farHouse.jpg';
+import kitchenHouse from '../assets/images/house/kitchenHouse.jpg';
 import insideTableHouse from '../assets/images/house/insidetableHouse.jpg';
 import insideHOuse from '../assets/images/house/insideHouse.jpg';
 import pool2House from '../assets/images/house/pool2House.jpg';
@@ -35,7 +35,7 @@ const Hero = () => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={fromAfarHouse}
+              src={frontOfHouse}
               alt="Third slide"
             />
           </Carousel.Item>
@@ -56,7 +56,7 @@ const Hero = () => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={frontOfHouse}
+              src={kitchenHouse}
               alt="Sixth slide"
             />
           </Carousel.Item>
@@ -192,7 +192,7 @@ const Hero = () => {
         </Form>
       </div>
 
-      <Cards />
+      {/* <Cards /> */}
         
     </div>
   )

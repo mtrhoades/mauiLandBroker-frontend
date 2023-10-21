@@ -51,12 +51,12 @@
   cursor: pointer;
 }
 
-.phoneSection:hover {
-  color: #B2C035;
+.phoneSection a {
+  color: white;
 }
 
-.phoneIcon {
-  padding: 0;
+.phoneSection a:hover {
+  color: #B2C035;
 }
 
 .iconsCol {
