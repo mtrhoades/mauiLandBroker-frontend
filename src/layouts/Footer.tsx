@@ -65,15 +65,18 @@ const NewFooter = () => {
                                 <Modal.Title>sales@mauilandbroker.com</Modal.Title>
                             </Modal.Header>
                             <Modal.Body>
-                                <form className="contactForm">
-                                <label htmlFor="name">Name:</label>
-                                <input autoFocus type="text" id="name" name="name"></input>
+                                <form className="contactForm" action="https://formsubmit.co/f0f5b23cef96474d88d43949d35dc782" method="POST">
+                                    <label htmlFor="name">Name:</label>
+                                    <input autoFocus type="text" id="name" name="name" required></input>
 
-                                <label htmlFor="subject">Subject:</label>
-                                <input type="text" id="subject" name="subject"></input>
+                                    <label htmlFor="email">Email:</label>
+                                    <input type="text" id="email" name="email" required></input>
 
-                                <label htmlFor="message">Message:</label>
-                                <textarea id="message" name="message"/>
+                                    <label htmlFor="subject">Subject:</label>
+                                    <input type="text" id="subject" name="subject"></input>
+
+                                    <label htmlFor="message">Message:</label>
+                                    <textarea id="message" name="message" required/>
                                 </form>
                             </Modal.Body>
                             <Modal.Footer>
