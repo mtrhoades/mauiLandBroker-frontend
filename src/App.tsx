@@ -5,7 +5,7 @@ import Cards from './components/Cards';
 import Footer from './layouts/Footer';
 import Home from './pages/Home';
 import Listings from './pages/Listings';
-import Associations from './pages/Associations';
+import AssociationsList from './pages/AssociationsList';
 import Agents from './pages/Agents';
 import Specials from './pages/Specials';
 import About from './pages/About';
@@ -25,7 +25,9 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='about' element={<About />} />
         <Route path='agents' element={<Agents />} />
-        <Route path='associations' element={<Associations />} />
+
+        <Route path='associations' element={<AssociationsList />} />
+
         <Route path='listings' element={<Listings />} />
         <Route path='specials' element={<Specials />} />
         <Route path='buysell' element={<BuySell />} />

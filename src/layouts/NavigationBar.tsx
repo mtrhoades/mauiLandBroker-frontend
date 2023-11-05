@@ -26,7 +26,9 @@ function NavigationBar() {
                 <NavDropdown.Item className="navDropdownItem fs-5" href="/about">About MLB</NavDropdown.Item>
               </NavDropdown>
 
-              <NavDropdown title="Associations" id="navbarScrollingDropdown">
+              <Nav.Link href="/associations">Associations</Nav.Link>
+
+              {/* <NavDropdown title="Associations" id="navbarScrollingDropdown">
                 <NavDropdown.Item className="navDropdownItem fs-5" href="/associations">Hale Kaiola</NavDropdown.Item>
                 <NavDropdown.Item className="navDropdownItem fs-5" href="/associations">Koa Kai</NavDropdown.Item>
                 <NavDropdown.Item className="navDropdownItem fs-5" href="/associations">Kualono</NavDropdown.Item>
@@ -44,7 +46,7 @@ function NavigationBar() {
                 <NavDropdown.Item className="navDropdownItem" href="/associations">
                   Something else here?
                 </NavDropdown.Item>
-              </NavDropdown>
+              </NavDropdown> */}
             </Nav>
           </Navbar.Collapse>
         </Container>
