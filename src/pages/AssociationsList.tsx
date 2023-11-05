@@ -34,12 +34,12 @@ const AssociationsList = () => {
                 throw new Error(`Request failed with status: ${response.status}`);
                 }
             const data = await response.json();
-            console.log(data);
+            // console.log(data);
             
             // Extract the 'associations' array from the response data
             const associationsArray = data.associations;
 
-            console.log(associationsArray);
+            // console.log(associationsArray);
             setAssociations(associationsArray);
 
         } catch (error) {
