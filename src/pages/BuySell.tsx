@@ -42,7 +42,7 @@ const BuySell = () => {
 
       <div style={{height: '25rem'}}></div>
 
-      <div style={{width: '100%',display: 'flex', justifyContent: 'space-around',backgroundColor: 'white', paddingLeft: '5rem', paddingRight: '5rem'}}>
+      <div style={{width: '100%',display: 'flex', justifyContent: 'space-around',backgroundColor: 'white', paddingLeft: '5rem', paddingRight: '5rem', paddingTop: '1.5rem'}}>
         <div className="asBuyerSellerList">
           <h3>As a <span style={{color: 'blue'}}>Buyer</span> what should I know?</h3>
             <ul>
@@ -82,23 +82,27 @@ const BuySell = () => {
           <ul>
             <li>
               <FontAwesomeIcon className='icons buySellIcon' icon={faCheck}></FontAwesomeIcon>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+              Understand your Local Real Estate Market 
             </li>
             <li>
               <FontAwesomeIcon className='icons buySellIcon' icon={faCheck}></FontAwesomeIcon>
-              Consequuntur hic nisi iure error nam possimus molestias. 
+              Choose the Right Real Estate Agent 
             </li>
             <li>
               <FontAwesomeIcon className='icons buySellIcon' icon={faCheck}></FontAwesomeIcon>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+              Set the Right Asking Price 
             </li>
             <li>
               <FontAwesomeIcon className='icons buySellIcon' icon={faCheck}></FontAwesomeIcon>
-              Consequuntur hic nisi iure error nam possimus molestias. 
+              Prepare Your Home for Sale 
             </li>
             <li>
               <FontAwesomeIcon className='icons buySellIcon' icon={faCheck}></FontAwesomeIcon>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+              Understand the Closing Process 
+            </li>
+            <li>
+              <FontAwesomeIcon className='icons buySellIcon' icon={faCheck}></FontAwesomeIcon>
+              Plan Your Next Move
             </li>
           </ul>
         </div>

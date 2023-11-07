@@ -1,8 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouseUser } from '@fortawesome/free-solid-svg-icons';
+import { faHouseUser, faList } from '@fortawesome/free-solid-svg-icons';
 import { faHandshake } from '@fortawesome/free-solid-svg-icons';
 import { faTag } from '@fortawesome/free-solid-svg-icons';
 import { faQuestion } from '@fortawesome/free-solid-svg-icons';
+import { faListCheck } from '@fortawesome/free-solid-svg-icons';
+import { faPeopleArrows } from '@fortawesome/free-solid-svg-icons';
 
 
 const HoaInfo = () => {
@@ -11,39 +13,36 @@ const HoaInfo = () => {
 
       <div className="hoaInfoContainer">
           
-        <h2>Home Owners Association Information</h2>
+        <h2>Homeowner's Association Information</h2>
 
         <div className="whatToKnowListDiv">
-          <h3>What to know if you're a home owner inside one of our associations:</h3>
+          <h3>What to know if you're a home owner in one of our associations:</h3>
           <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
             <ul>
               <li>
                 <FontAwesomeIcon className='icons hoaIcons' icon={faHouseUser}></FontAwesomeIcon>
-                All Documents are retrieved from inside the portal Log-In for each association individually, accessed from the nav bar at the top of the page.
+                All necessary HOA documents can be retrieved from a portal Log-In for each Association. If you need access to any HOA documents for your Association, please contact Maui Land Broker. Please note – Maui Land Broker’s fiduciary duty is to the homeowner of a property. If you are a representing the seller, you must include the homeowner in any email correspondence.
               </li>
               <li>
                 <FontAwesomeIcon className='icons hoaIcons' icon={faHandshake}></FontAwesomeIcon>
-                Association managment meetings for board members and home owners happen either monthly, quartely, or bi-annually depending on the association.
+                Association Board of Directors Meetings take place monthly, quarterly, or bi-annualy depending on the Association. Board of Directors Meeting Minutes can be accessed via the Association Portal. 
               </li>
               <li>
                 <FontAwesomeIcon className='icons hoaIcons' icon={faTag}></FontAwesomeIcon>
-                Maui Land Broker and Property Management, Inc is happy to offer a 1% listing discount to our property management clients, as well as helping give owners who list their property through MLB a head start in the listing process.
+                Maui Land Broker is happy to offer a 1% listing discount to our any of our clients who are living in the Homeowner’s Associations that we currently manage.
               </li>
               <li>
-                <FontAwesomeIcon className='icons hoaIcons' icon={faQuestion}></FontAwesomeIcon>
-                Something Else Here?
+                <FontAwesomeIcon className='icons hoaIcons' icon={faListCheck}></FontAwesomeIcon>
+                Since we provide management services we have all the necessary information in electronic format for prospective purchasers, interested buyers can readily learn more about their property's House Rules, CC&R's, and Design Guidelines.This is a huge benefit to sellers as these documents are not readily available for review when you list with another broker.
+              </li>
+              <li>
+                <FontAwesomeIcon className='icons hoaIcons' icon={faPeopleArrows}></FontAwesomeIcon>
+                We know what makes our subdivisions special and enjoy working with our owners to handle all of their property management needs and real estate sales.
               </li>
             </ul>
           </div>
         </div>
 
-        <div style={{height: '200px'}}></div>
-
-        <div style={{width: '70%'}}>
-          <p>Since we provide management services we have all the necessary information in electronic format for prospective purchasers, interested buyers can readily learn more about their property's House Rules, CC&R's, and Design Guidelines.This is a huge benefit to sellers as these documents are not readily available for review when you list with another broker.</p>
-            
-          <p>We know what makes our subdivisions special and enjoy working with our owners to handle all of their property management needs and real estate sales.</p>
-        </div>
       </div>
 
     </div>
