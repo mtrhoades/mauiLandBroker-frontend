@@ -13,7 +13,7 @@
 
 .buySellContainer h3 {
     color: #7E7D32;
-    padding-top: 40px;
+    /* padding-top: 40px; */
 
     @media (max-width: 771px) {
         font-size: 1.3em;
@@ -25,7 +25,7 @@
 
 .buySellContainer h2 {
     text-align: center;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     color: black;
 
     @media (max-width: 771px) {
@@ -37,8 +37,8 @@
 }
 
 .reasonsToListBackground {
-    min-height: 70vh;
-    width: 55vw;
+    min-height: 90vh;
+    width: 85vw;
     position: relative;
     display: flex;
     align-items: center;
@@ -76,7 +76,6 @@
 
 .reasonsToList h3 {
     text-align: center;
-    padding-right: 3rem;
 }
 
 .reasonsToList li {

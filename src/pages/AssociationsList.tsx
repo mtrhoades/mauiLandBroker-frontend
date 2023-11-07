@@ -39,7 +39,7 @@ const AssociationsList = () => {
             // Extract the 'associations' array from the response data
             const associationsArray = data.associations;
 
-            // console.log(associationsArray);
+            console.log(associationsArray[0].filecategories[0].files[1]);
             setAssociations(associationsArray);
 
         } catch (error) {

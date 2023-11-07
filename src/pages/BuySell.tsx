@@ -18,23 +18,23 @@ const BuySell = () => {
           <ul>
             <li>
               <FontAwesomeIcon className='icons buySellIcon' icon={faRectangleAd}></FontAwesomeIcon>
-              <b>Purchased Ad space in the news for you specifically as a realtor</b>
+              <b>Exposure for your property through the Maui News in which we purchase add space in realtors working for you to feature your listing.</b>
             </li>
             <li>
               <FontAwesomeIcon className='icons buySellIcon' icon={faHouseLaptop}></FontAwesomeIcon>
-              <b>Web site hits</b>
+              <b>Web site hits. Since we are also a property management company we have buyers and sellers visiting our web site for association documents, which provide exposure for your property.</b>
             </li>
             <li>
               <FontAwesomeIcon className='icons buySellIcon' icon={faCommentsDollar}></FontAwesomeIcon>
-              <b>Will work together to come up with the absolute best return on your sale</b>
+              <b>Flexibility in listing terms. We will work with your to provide terms and costs that will help you in getting the best return on your sale.</b>
             </li>
             <li>
               <FontAwesomeIcon className='icons buySellIcon' icon={faScaleBalanced}></FontAwesomeIcon>
-              <b>We make sure your information is presented legally and ethically</b>
+              <b>A company that will help protect you from any future legal disputes. We understand ethics and disclosure. We will make sure your information is presented legally and in a timely manner.</b>
             </li>
             <li>
               <FontAwesomeIcon className='icons buySellIcon' icon={faPeopleGroup}></FontAwesomeIcon>
-              <b>Local, small businesses, help to prepare the sale</b>
+              <b>We are very good in helping your prepare your property for sale. We can provide information that will give your property any edge in the market. We have great small businesses who can provide the services your may need to prepare your property for sale</b>
             </li>
           </ul>
         </div>
@@ -48,23 +48,27 @@ const BuySell = () => {
             <ul>
               <li>
                 <FontAwesomeIcon className='icons buySellIcon' icon={faCheck}></FontAwesomeIcon>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Determine Your Budget 
               </li>
               <li>
                 <FontAwesomeIcon className='icons buySellIcon' icon={faCheck}></FontAwesomeIcon>
-                Consequuntur hic nisi iure error nam possimus molestias. 
+                Get Preapproved for a Mortgage 
               </li>
               <li>
                 <FontAwesomeIcon className='icons buySellIcon' icon={faCheck}></FontAwesomeIcon>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Research the Housing Market 
               </li>
               <li>
                 <FontAwesomeIcon className='icons buySellIcon' icon={faCheck}></FontAwesomeIcon>
-                Consequuntur hic nisi iure error nam possimus molestias. 
+                Work with a Real Estate Agent
               </li>
               <li>
                 <FontAwesomeIcon className='icons buySellIcon' icon={faCheck}></FontAwesomeIcon>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Consider your Priorities 
+              </li>
+              <li>
+                <FontAwesomeIcon className='icons buySellIcon' icon={faCheck}></FontAwesomeIcon>
+                Plan for Contingencies 
               </li>
             </ul>
         </div>

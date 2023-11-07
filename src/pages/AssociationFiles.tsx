@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Link } from 'react-router-dom';
 
 interface Association {
@@ -27,6 +27,7 @@ const AssociationFiles: React.FC<AssociationFilesProps> = ( {association, onLogo
         // Call the onLogout callback function to perform the logout action
         onLogout();
       };
+
     
   return (
     <div>
@@ -37,12 +38,12 @@ const AssociationFiles: React.FC<AssociationFilesProps> = ( {association, onLogo
       <h2>File Categories:</h2>
       <ul>
         {association.filecategories.map((category, index) => (
-          <li key={index}>
-            <strong>{category.categoryname}</strong>
+          <li style={{listStyleType: 'none'}} key={index}>
+            <strong><h3>{category.categoryname}</h3></strong>
             <ul>
               {category.files.map((file, fileIndex) => (
-                <li key={fileIndex}>
-                  {file.filename} - Size: {file.size}
+                <li style={{listStyleType: 'none'}} key={fileIndex}>
+                  <a target="_blank" href={`http://localhost:3001/${file.filepath}`}><h4>{file.filename}</h4></a>
                 </li>
               ))}
             </ul>
