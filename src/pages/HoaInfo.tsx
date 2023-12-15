@@ -20,23 +20,23 @@ const HoaInfo = () => {
           <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
             <ul>
               <li>
-                <FontAwesomeIcon className='icons hoaIcons' icon={faHouseUser}></FontAwesomeIcon>
+                <FontAwesomeIcon className='littleIcons' icon={faHouseUser}></FontAwesomeIcon>
                 All necessary HOA documents can be retrieved from a portal Log-In for each Association. If you need access to any HOA documents for your Association, please contact Maui Land Broker. Please note – Maui Land Broker’s fiduciary duty is to the homeowner of a property. If you are a representing the seller, you must include the homeowner in any email correspondence.
               </li>
               <li>
-                <FontAwesomeIcon className='icons hoaIcons' icon={faHandshake}></FontAwesomeIcon>
+                <FontAwesomeIcon className='littleIcons' icon={faHandshake}></FontAwesomeIcon>
                 Association Board of Directors Meetings take place monthly, quarterly, or bi-annualy depending on the Association. Board of Directors Meeting Minutes can be accessed via the Association Portal. 
               </li>
               <li>
-                <FontAwesomeIcon className='icons hoaIcons' icon={faTag}></FontAwesomeIcon>
+                <FontAwesomeIcon className='littleIcons' icon={faTag}></FontAwesomeIcon>
                 Maui Land Broker is happy to offer a 1% listing discount to our any of our clients who are living in the Homeowner’s Associations that we currently manage.
               </li>
               <li>
-                <FontAwesomeIcon className='icons hoaIcons' icon={faListCheck}></FontAwesomeIcon>
+                <FontAwesomeIcon className='littleIcons' icon={faListCheck}></FontAwesomeIcon>
                 Since we provide management services we have all the necessary information in electronic format for prospective purchasers, interested buyers can readily learn more about their property's House Rules, CC&R's, and Design Guidelines.This is a huge benefit to sellers as these documents are not readily available for review when you list with another broker.
               </li>
               <li>
-                <FontAwesomeIcon className='icons hoaIcons' icon={faPeopleArrows}></FontAwesomeIcon>
+                <FontAwesomeIcon className='littleIcons' icon={faPeopleArrows}></FontAwesomeIcon>
                 We know what makes our subdivisions special and enjoy working with our owners to handle all of their property management needs and real estate sales.
               </li>
             </ul>

@@ -14,17 +14,17 @@ const RentWithUs = () => {
 
   return (
     <div className="rentWithUsContainer">
-      <h3>Rentals Information</h3>
+      <h2>Rentals Information</h2>
 
-      <h5>Why Rent with Us?</h5>
+      <h3>Why Rent with Us?</h3>
 
       <ul>
         <li>
-          <FontAwesomeIcon className='icons hoaIcons' icon={faCommentsDollar}></FontAwesomeIcon>
-          Maui Land Broker offers the most reasonable Property Management Fees on Maui. If you are considering our Property Management Services for a rental in one of the Associations we manage, we have the HOA knowledge and competitively low fees.
+          <FontAwesomeIcon className='littleIcons' icon={faCommentsDollar}></FontAwesomeIcon>
+          Maui Land Broker offers the most reasonable Property Management Fees on Maui. If you are considering our Property Management Services for a rental in one of the associations we manage, we have the HOA knowledge and competitively low fees.
         </li>
         <li>
-          <FontAwesomeIcon className='icons hoaIcons' icon={faEnvelopeOpenText}></FontAwesomeIcon>
+          <FontAwesomeIcon className='littleIcons' icon={faEnvelopeOpenText}></FontAwesomeIcon>
           If you are interested in learning more information about our Property Management Services for one of your rentals on Maui, please contact us at <a style={{color: 'blue', cursor: 'pointer'}} onClick={handleShow}>sales@MauiLandBroker.com</a></li>
       </ul>
 

@@ -9,10 +9,10 @@
 
 .hoaBackground::before {
     content: '';
-    background-image: url('../../images/taroLongStem.jpg');
-    background-repeat: no-repeat;
+    /* background-image: url('../../images/taroPlantLeaves.jpg'); */
+    background-repeat: repeat;
     background-size: cover;
-    background-position: 25% -35%;
+    background-position: center;
     position: absolute;
     top: 0;
     left: 0;
@@ -34,7 +34,7 @@
 }
 
 .hoaInfoContainer h2 {
-    color: black;
+    color:  #3B2313;
     text-align: center;
 }
 
@@ -57,9 +57,4 @@
     list-style-type: none;
     padding: 20px;
     font-size: 1.5em;
-}
-
-.hoaIcons {
-    font-size: 2em;
-    padding-right: 1.25rem;
 }

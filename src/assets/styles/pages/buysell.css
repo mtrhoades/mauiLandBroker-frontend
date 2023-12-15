@@ -1,10 +1,11 @@
 .buySellContainer {
-    background-image: url('../../images/house/farHouse.jpg');
-    background-size: cover;
+    /* background-image: url('../../images/house/farHouse.jpg');
+    background-size: cover; */
     margin: 12rem 0rem 0rem 0rem;
     padding: 2rem 0rem 0rem 0rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     @media (max-width: 431px) {
         margin-top: 15rem;
@@ -13,7 +14,7 @@
 
 .buySellContainer h3 {
     color: #7E7D32;
-    /* padding-top: 40px; */
+    padding-top: 40px;
 
     @media (max-width: 771px) {
         font-size: 1.3em;
@@ -26,7 +27,7 @@
 .buySellContainer h2 {
     text-align: center;
     /* padding-top: 20px; */
-    color: black;
+    color:  #3B2313;
 
     @media (max-width: 771px) {
         font-size: 1.6em;
@@ -36,30 +37,10 @@
     }
 }
 
-.reasonsToListBackground {
-    min-height: 90vh;
-    width: 85vw;
-    position: relative;
-    display: flex;
-    align-items: center;
-}
-
-.reasonsToListBackground::before {
-    content: '';
-    background-color: white;
-    position: absolute;
-    border-radius: 50%;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    opacity: .5;
-}
-
 .reasonsToList {
     padding-left: 7rem;
     padding-bottom: 3rem;
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     font-size: 1.5em;
@@ -83,14 +64,24 @@
     padding: 12px;
 }
 
-.buySellIcon {
+.littleIcons {
     padding-right: 20px;
     font-size: 3rem;
     color: #B2C035;
+    stroke: #3B2313;
+	stroke-width: 7.5;
 
     @media (max-width: 771px) {
         font-size: 2em;
     }
+}
+
+.littleIcons :hover {
+    color: #7E7D32;
+}
+
+.asBuyerSellerList h3 {
+    padding-bottom: 1rem;
 }
 
 .asBuyerSellerList {
@@ -98,9 +89,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0rem 2rem 0rem 0rem;
 }
 
 .asBuyerSellerList ul {
     font-size: 1.5em;
     list-style-type: none;
+}
+
+.asBuyerSellerList li {
+    padding-bottom: 1rem;
+    font-style: italic;
 }

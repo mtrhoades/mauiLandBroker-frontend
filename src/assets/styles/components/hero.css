@@ -59,9 +59,9 @@
 
     @media (max-width: 1199px) {
         position: relative;
-        background-image: 
+        /* background-image: 
             linear-gradient(rgb(59,35,19, .8), rgb(178,192,53, .85)),
-            url("../../images/taroLeavesCorner.jpg");
+            url("../../images/taroLeavesCorner.jpg"); */
         background-size: 27%;
         background-position: right 0% bottom 100%;
     }

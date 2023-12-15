@@ -12,11 +12,11 @@
     }
 }
 
-.rentWithUsContainer h3 {
-    color: black;
+.rentWithUsContainer h2 {
+    color:  #3B2313;
 }
 
-.rentWithUsContainer h5 {
+.rentWithUsContainer h3 {
     padding-top: 20px;
     padding-bottom: 20px;
     color: #7E7D32;
