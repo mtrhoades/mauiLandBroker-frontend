@@ -31,7 +31,19 @@ const MortgageCalculator = () => {
 
 // graph
 const options = {
-  labels: ['Monthly Mortgage Payment', 'Property Tax', 'Home Insurance', 'HOA Dues']
+  labels: ['Monthly Mortgage Payment', 'Property Tax', 'Home Insurance', 'HOA Dues'],
+  colors: ["#068FE2", "#c758d0", "#ED940C", "#52AD0F"],
+      responsive: [{
+        breakpoint: 480,
+        options: {
+          chart: {
+            width: 200
+          },
+          legend: {
+            position: 'bottom'
+          }
+        }
+      }]
 }
 const series = [calculateMortgagePayment().mortgagePaymentBalance, (propertyTax/12), (homeInsurance/12), (hoaDues/12)]
 
@@ -65,7 +77,7 @@ const series = [calculateMortgagePayment().mortgagePaymentBalance, (propertyTax/
 
           <Form.Group className="mb-3" as={Row}>
             <Form.Label className="calcLabels" column md={6}>
-              Interest Rate:
+              Interest Rate: (%)
             </Form.Label>
             <Col md={5}>
               <Form.Control className="formInputs" type='number' value={interestRate} onChange={(e) => setInterestRate(Number(e.target.value))} step='any' />
