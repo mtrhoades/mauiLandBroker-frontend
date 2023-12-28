@@ -62,6 +62,7 @@ const Agents = () => {
         </Modal.Header>
         <Modal.Body>
             <h4 style={{paddingBottom: '2rem'}}>Real Estate Liscense obtained in 1983</h4>
+            <h4 style={{paddingBottom: '2rem'}}>Real Estate Brokerage Liscense obtained in 1986</h4>
             <div className="agentSummaryList">
               <h4>Education</h4>
               <ul>
@@ -98,27 +99,29 @@ const Agents = () => {
         <Modal.Header style={{display: 'flex', flexDirection: 'column'}}>
           <img className="thumbnail" src={shirleyPhoto} alt="Shirley Blackburn"></img>
           <Modal.Title><h1>Shirley Blackburn</h1></Modal.Title>
-          <p></p>
+          <p>As a mother of three and grandmother of six, I know how important it is to find the community you belong in and to help better it, not just for your family, but for everyone in the community. I have lots of family here on Maui, and I can help you first hand on how to find the perfect home for your family.</p>
         </Modal.Header>
         <Modal.Body>
-            <h4 style={{paddingBottom: '2rem'}}>Started Maui Land Broker in 2012?</h4>
+            <h4 style={{paddingBottom: '2rem'}}>Owner/Operator of Maui Land Broker since the beginning, in 2008.</h4>
             <div className="agentSummaryList">
               <h4>Education</h4>
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Graduate of Aiea High School</li>
+                <li>Kapiolani Community College</li>
+                <li>Travel Institute of the Pacific</li>
               </ul>
               <h4>Careers</h4>
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>County of Maui - Office of the Mayor - Budget Department</li>
+                <li>Title Guaranty Escrow Services - Regional Sales Manager</li>
+                <li>Classic Resorts - Assistant to the Reservations Manager</li>
+                <li>Mid Pacific Airlines - Guest Relations</li>
               </ul>
               <h4>Community</h4>
               <ul>
-                <li></li>
-                <li></li>
+                <li>County of Maui budget operations, administers budget community meetings.</li>
+                <li>Prepares and executes special projects for the community administered by the Mayor's office.</li>
+                <li>Volunteers for disaster relief.</li>
               </ul>
             </div>
         </Modal.Body>
