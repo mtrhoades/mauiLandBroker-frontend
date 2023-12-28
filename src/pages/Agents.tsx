@@ -252,7 +252,7 @@ const Agents = () => {
         </Modal.Footer>
       </Modal>
 
-        <div className="card">
+        <div className="card fremontCard">
           <img id="fremontImg" src={fremontPhoto} alt="Fremont Dog"></img>
           <h3>Fremont</h3>
           <h5>Security Guard</h5>
