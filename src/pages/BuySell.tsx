@@ -63,7 +63,7 @@ const BuySell = () => {
             </ul>
         </div>
 
-        <img style={{width: '40%'}} src={blackAndWhiteOfficePic}></img>
+        <img style={{width: '35%'}} src={blackAndWhiteOfficePic}></img>
 
         <div className="asBuyerSellerList">
         <h3>As a <span style={{color: 'red'}}>Seller</span> what should I know?</h3>

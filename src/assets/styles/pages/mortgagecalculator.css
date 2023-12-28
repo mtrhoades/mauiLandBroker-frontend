@@ -13,9 +13,10 @@
 
 .calcHeaders h2 {
     color: black;
+    padding-bottom: 40px;
 }
 
-.calcHeaders h5, .disclaimer h5 {
+.calcHeaders h3, .disclaimer h5 {
     color: #7E7D32;
 }
 
@@ -81,4 +82,5 @@
 
 .formInputs {
     text-align: left;
+    font-size: 1.25em;
 }
