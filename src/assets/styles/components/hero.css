@@ -92,6 +92,8 @@
     font-weight: 700;
     font-size: 1.5em;
     background-color: rgb(178,192,53);
+    border: none;
+    margin-right: 10px;
 
     @media (max-width: 1199px) {
         background-color: #38804F;

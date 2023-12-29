@@ -77,6 +77,7 @@ const Hero = () => {
 
       <div className='hero-bottom-section'>
         <Form className="searchForm">
+          <Button className="searchButton" variant="primary">Property Listings</Button>
           <div className="firstHalfSearchForm" style={{display: 'flex'}}>
             <Form.Control
               type="text"
@@ -191,8 +192,6 @@ const Hero = () => {
           </div>
         </Form>
       </div>
-
-      {/* <Cards /> */}
         
     </div>
   )
