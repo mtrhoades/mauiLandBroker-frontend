@@ -9,16 +9,16 @@
 
 .hoaBackground::before {
     content: '';
-    /* background-image: url('../../images/taroPlantLeaves.jpg'); */
+    background-image: url('../../images/plantBg.png');
     background-repeat: repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    opacity: .25;
+    opacity: .15;
 }
 
 .hoaInfoContainer {

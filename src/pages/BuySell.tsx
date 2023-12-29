@@ -38,7 +38,7 @@ const BuySell = () => {
           </ul>
         </div>
 
-      <div style={{display: 'flex', justifyContent: 'center'}}>
+      <div style={{display: 'flex', justifyContent: 'center', paddingBottom: '3rem'}}>
         <div className="asBuyerSellerList">
           <h3>As a <span style={{color: 'blue'}}>Buyer</span> what should I know?</h3>
             <ul>
