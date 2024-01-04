@@ -1,43 +1,16 @@
-import { useState, useEffect } from 'react';
+
 
 const SearchResults = () => {
-
-    const [listings, setListings]: any[] = useState([]);
-    
-    const url = 'https://zillow56.p.rapidapi.com/search?location=96793';
-    const options = {
-      method: 'GET',
-      headers: {
-        'X-RapidAPI-Key': '36b9de386bmsh83631e05836c7bbp1265c4jsne4baecaf36d0',
-        'X-RapidAPI-Host': 'zillow56.p.rapidapi.com'
-      }
-    };    
-  
-  
-    // fetch request for mls api
-    const mlsFetch = async () => {
-      try {
-        const response = await fetch(url, options);
-        const result = await response.text();
-        console.log(result);
-        setListings(result)
-      } catch (error) {
-        console.error(error);
-      }
-    }
-  
-    useEffect(() => {
-      mlsFetch();
-    }, [])
-    
-
   return (
     <div className="searchResultsContainer">
-        SearchResults
+      <h1>Search Results</h1>
 
-        {/* {listings.map(listing => (
+      <div className="mci-app-node mci-idx-node mci-idx-node-quickSearch" data-mod="quickSearch" data-property_types="Residential,Condominium,Vacant Land" data-mls_box="true" data-district_list="true" data-price_range="true" data-bed_bath="true"><div style={{textAlign: "center"}}>Loading...</div></div>
 
-        ))} */}
+
+      {/* <div className="mci-app-node mci-idx-node mci-idx-node-search" data-mod="search" data-display="featured">
+        <div style={{textAlign: "center"}}>Loading...</div>
+      </div> */}
 
     </div>
   )

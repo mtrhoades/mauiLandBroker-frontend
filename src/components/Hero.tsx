@@ -191,8 +191,7 @@ const Hero = () => {
             <Button className="searchButton" href="/searchresults" variant="success">Search</Button>
           </div>
         </Form>
-      </div>
-        
+      </div>        
     </div>
   )
 }
