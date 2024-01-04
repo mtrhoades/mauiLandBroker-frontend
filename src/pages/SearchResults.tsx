@@ -1,6 +1,31 @@
-
+import {useState, useEffect} from 'react';
 
 const SearchResults = () => {
+
+  // fetch request for mls data
+  // const getMlsdata = async () => {
+  //   try {
+  //     const response = await fetch('https://users.mciserver.com/v1/js/loaderPublic.js',
+  //       {
+  //         method: 'GET',
+  //         headers: {
+  //           'Accept': 'application/json',
+  //           'Access-Control-Allow-Origin': '*',
+  //           'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept, Authorization'
+  //         }
+  //       }
+  //     );
+  //     const jsonData = await response.json();
+  //     console.log(jsonData);
+  //   } catch (e: any) {
+  //     console.error(e.message);
+  //   }
+  // }
+
+  // useEffect(() => {
+  //   getMlsdata()
+  // }, [])
+
   return (
     <div className="searchResultsContainer">
       <h1>Search Results</h1>
