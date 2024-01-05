@@ -76,7 +76,12 @@ const Hero = () => {
       </div>      
 
       <div className='hero-bottom-section'>
-        <Form className="searchForm">
+
+      <div className="mci-app-node mci-idx-node mci-idx-node-quickSearch" data-mod="quickSearch" data-property_types="Residential,Condominium,Vacant Land" data-mls_box="true" data-district_list="true" data-price_range="true" data-bed_bath="true">
+        <div style={{textAlign: "center"}}>Loading...</div>
+      </div>
+
+        {/* <Form className="searchForm">
           <Button className="searchButton" variant="primary">Property Listings</Button>
           <div className="firstHalfSearchForm" style={{display: 'flex'}}>
             <Form.Control
@@ -190,7 +195,7 @@ const Hero = () => {
             </Form.Select>
             <Button className="searchButton" href="/searchresults" variant="success">Search</Button>
           </div>
-        </Form>
+        </Form> */}
       </div>        
     </div>
   )
