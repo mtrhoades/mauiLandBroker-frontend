@@ -1,3 +1,7 @@
 .searchResultsContainer {
     margin-top: 12rem;
 }
+
+div.mci-buttons {
+    color: red;
+}
