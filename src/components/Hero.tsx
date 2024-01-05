@@ -1,6 +1,4 @@
 import Carousel from 'react-bootstrap/Carousel';
-import Form from 'react-bootstrap/Form';
-import Cards from '../components/Cards';
 import Button from 'react-bootstrap/Button';
 import backOfHouse from '../assets/images/house/backHouse.jpg';
 import frontOfHouse from '../assets/images/house/frontHouse.jpg';
@@ -77,126 +75,22 @@ const Hero = () => {
 
       <div className='hero-bottom-section'>
 
-      <div className="mci-app-node mci-idx-node mci-idx-node-quickSearch" data-mod="quickSearch" data-property_types="Residential,Condominium,Vacant Land" data-mls_box="true" data-district_list="true" data-price_range="true" data-bed_bath="true">
-        <div style={{textAlign: "center"}}>Loading...</div>
+        <div className="arrow2">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <Button href="/searchresults" className="searchButton" variant="primary">Check Out Maui Property Listings Now!</Button>
+
+        <div className="arrow">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
       </div>
 
-        {/* <Form className="searchForm">
-          <Button className="searchButton" variant="primary">Property Listings</Button>
-          <div className="firstHalfSearchForm" style={{display: 'flex'}}>
-            <Form.Control
-              type="text"
-              placeholder="MLS Number"
-              className="me-2"
-              aria-label="MLS #"
-              />
-            <Form.Select className="me-2">
-              <option value="Residential">Residential</option>
-              <option value="Condiminium">Condiminium</option>
-              <option value="Vacant Land">Vacant Land</option>
-            </Form.Select>
-            <Form.Select className="me-2">
-              <option value="District">District</option>
-              <option value="Haiku">Haiku</option>
-              <option value="Hana">Hana</option>
-              <option value="Honokohau">Honokohau</option>
-              <option value="Kaanapali">Kaanapali</option>
-              <option value="Kahakuloa">Kahakuloa</option>
-              <option value="Kahului">Kahului</option>
-              <option value="Kapalua">Kapalua</option>
-              <option value="Kaupo">Kaupo</option>
-              <option value="Keane">Keane</option>
-              <option value="Kihei">Kehei</option>
-              <option value="Kipahulu">Kipahulu</option>
-              <option value="Kula">Kula</option>
-              <option value="Lahaina">Lahaina</option>
-              <option value="Lanai">Lanai</option>
-              <option value="Maalaea">Maalaea</option>
-              <option value="Makawao">Makawao</option>
-              <option value="Maui Meadows">Maui Meadows</option>
-              <option value="Molokai">Molokai</option>
-              <option value="Nahiku">Nahiku</option>
-              <option value="Napili">Napili</option>
-              <option value="Olowalu">Olowalu</option>
-              <option value="Pukalani">Pukalani</option>
-              <option value="Paia">Paia</option>
-              <option value="Wailea">Wailea</option>
-              <option value="Wailuku">Wailuku</option>
-            </Form.Select>
-            <Form.Select className="me-2">
-              <option value="Min Price">Min Price</option>
-              <option value="$50,000">$50,000</option>
-              <option value="$100,000">$100,000</option>
-              <option value="$150,000">$150,000</option>
-              <option value="$200,000">$200,000</option>
-              <option value="$250,000">$250,000</option>
-              <option value="$300,000">$300,000</option>
-              <option value="$350,000">$350,000</option>
-              <option value="$400,000">$400,000</option>
-              <option value="$450,000">$450,000</option>
-              <option value="$500,000">$500,000</option>
-              <option value="$600,000">$600,000</option>
-              <option value="$700,000">$700,000</option>
-              <option value="$800,000">$800,000</option>
-              <option value="$900,000">$900,000</option>
-              <option value="$1,000,000">$1,000,000</option>
-              <option value="$1,250,000">$1,250,000</option>
-              <option value="$1,500,000">$1,500,000</option>
-              <option value="$1,750,000">$1,750,000</option>
-              <option value="$2,000,000">$2,000,000</option>
-              <option value="$2,500,000">$2,500,000</option>
-              <option value="$3,000,000">$3,000,000</option>
-              <option value="$4,000,000">$4,000,000</option>
-              <option value="$5,000,000">$5,000,000</option>
-            </Form.Select>
-          </div>
-          <div className="secondHalfSearchForm" style={{display: 'flex'}}>
-            <Form.Select className="me-2">
-              <option value="Max Price">Max Price</option>
-              <option value="$50,000">$50,000</option>
-              <option value="$100,000">$100,000</option>
-              <option value="$150,000">$150,000</option>
-              <option value="$200,000">$200,000</option>
-              <option value="$250,000">$250,000</option>
-              <option value="$300,000">$300,000</option>
-              <option value="$350,000">$350,000</option>
-              <option value="$400,000">$400,000</option>
-              <option value="$450,000">$450,000</option>
-              <option value="$500,000">$500,000</option>
-              <option value="$600,000">$600,000</option>
-              <option value="$700,000">$700,000</option>
-              <option value="$800,000">$800,000</option>
-              <option value="$900,000">$900,000</option>
-              <option value="$1,000,000">$1,000,000</option>
-              <option value="$1,250,000">$1,250,000</option>
-              <option value="$1,500,000">$1,500,000</option>
-              <option value="$1,750,000">$1,750,000</option>
-              <option value="$2,000,000">$2,000,000</option>
-              <option value="$2,500,000">$2,500,000</option>
-              <option value="$3,000,000">$3,000,000</option>
-              <option value="$4,000,000">$4,000,000</option>
-              <option value="$5,000,000">$5,000,000</option>
-            </Form.Select>
-            <Form.Select className="me-2">
-              <option value="Beds">Beds</option>
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-            </Form.Select>
-            <Form.Select className="me-2">
-              <option value="Baths">Baths</option>
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-            </Form.Select>
-            <Button className="searchButton" href="/searchresults" variant="success">Search</Button>
-          </div>
-        </Form> */}
-      </div>        
     </div>
   )
 }
