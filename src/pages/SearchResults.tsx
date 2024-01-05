@@ -37,7 +37,11 @@ const SearchResults = () => {
       </div> */}
 
 
-      <div className="mci-app-node mci-idx-node mci-idx-node-search" data-mod="search" data-display="featured">
+      {/* <div className="mci-app-node mci-idx-node mci-idx-node-search" data-mod="search" data-display="featured">
+        <div style={{textAlign: "center"}}>Loading...</div>
+      </div> */}
+
+      <div className="mci-app-node mci-idx-node mci-idx-node-search" data-mod="search" data-display="splash">
         <div style={{textAlign: "center"}}>Loading...</div>
       </div>
 
