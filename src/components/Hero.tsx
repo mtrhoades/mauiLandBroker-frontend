@@ -75,7 +75,7 @@ const Hero = () => {
 
       <div className='hero-bottom-section'>
 
-        <div className="arrow2">
+        <div className="arrow">
           <span></span>
           <span></span>
           <span></span>
@@ -83,7 +83,7 @@ const Hero = () => {
 
         <Button href="/searchresults" className="searchButton" variant="primary">Check Out Maui Property Listings Now!</Button>
 
-        <div className="arrow">
+        <div className="arrow2">
           <span></span>
           <span></span>
           <span></span>

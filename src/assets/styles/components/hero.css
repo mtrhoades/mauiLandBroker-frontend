@@ -52,10 +52,12 @@
 
 .hero-bottom-section {
     width: 100%;
-    text-align: center;
     position: fixed;
     z-index: 1;
     background-color: rgba(8, 12, 9, 0.6);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
     @media (max-width: 1199px) {
         position: relative;
@@ -73,82 +75,20 @@
     z-index: 0;
 }
 
-.searchForm {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 20px 20px 20px 30px;
-
-    @media (max-width: 1199px) {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
 .searchButton {
     font-weight: 700;
     font-size: 1.5em;
     background-color: rgb(178,192,53);
     border: none;
-    margin-right: 10px;
 
     @media (max-width: 1199px) {
         background-color: #38804F;
     }
 }
 
-.form-select, .form-control {
-    width: 15rem;
-    text-align: center;
-
-    @media (max-width: 2075px) {
-        width: 10rem;
-    }
-    @media (max-width: 1318px) {
-        width: 9rem;
-    }
-    @media (max-width: 600px) {
-        width: 35rem;
-        margin-bottom: 5px;
-    }
-    @media (max-width: 575px) {
-        width: 30rem;
-    }
-    @media (max-width: 500px) {
-        width: 27rem;
-    }
-    @media (max-width: 450px) {
-        width: 24rem;
-    }
-    @media (max-width: 400px) {
-        width: 21rem;
-    }
-    @media (max-width: 350px) {
-        width: 18rem;
-    }
-}
-
-.firstHalfSearchForm {
-    @media (max-width: 1199px) {
-        padding-bottom: 10px;
-    }
-    @media (max-width: 600px) {
-        flex-direction: column;
-        padding-bottom: 0px;
-    }
-}
-
-.secondHalfSearchForm {
-    @media (max-width: 600px) {
-        flex-direction: column;
-        align-items: center; /* makes search button smaller */
-    }
-}
-
 .arrow {
     position: absolute;
-    top: 0%;
-    left: 65%;
+    margin-left: 35%;
     transform: translate(-50%, -50%);
     transform: rotate(90deg);
     cursor: pointer;
@@ -189,8 +129,7 @@
 
 .arrow2 {
     position: absolute;
-    top: 0%;
-    right: 65%;
+    margin-right: 35%;
     transform: translate(-50%, -50%);
     transform: rotate(90deg);
     cursor: pointer;
@@ -209,15 +148,15 @@
 }
 
 .arrow2 span:nth-child(3) {
-    animation-delay: -0.2s;
+    animation-delay: -0.1s;
 }
 
 .arrow2 span:nth-child(2) {
-    animation-delay: -0.4s;
+    animation-delay: -0.2s;
 }
 
 .arrow2 span:nth-child(1) {
-    animation-delay: -0.8s;
+    animation-delay: -0.4s;
 }
 
 @keyframes animate2 {
